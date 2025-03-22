@@ -23,5 +23,5 @@ jobs:
 
       - name: Run Script
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN_USDA }}
         run: python your_script.py  # Replace with your actual script name
